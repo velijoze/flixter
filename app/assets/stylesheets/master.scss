@@ -3,7 +3,7 @@
 .navbar{
 	font-family: "Helvetica Neue", Helvetica;
 	font-weight: 200;
-	box-shadow: 0px 1px 3px #2a2a2a;
+	box-shadow: 0px 1px 3px #3f3f3f;
 	background: image_url('wool.png');
 	color: white;
 }
@@ -11,5 +11,42 @@
 .navbar-inverse a.navbar-brand {
 	font-family: "Helvetica Neue", Helvetica;
 	font-weight: 100;
+	color: #0275d8;
+}
+
+.hero {
+	background: image_url('hero.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 670px;
+  box-shadow: 0px 3px 8px #3f3f3f;
+
+}
+
+h1, h2, h3, h4, h5, h6, .navbar{
+	margin: 0;
+}
+
+.frosty {
+	background: rgba(59, 59, 59, 0.2);
 	color: white;
+}
+
+.frosty h1 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 100;
+/*	text-shadow: rgba(59, 59, 59, 0.95) 1px 1px;*/
+}
+
+.frosty h2 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 200;
+/*	text-shadow: rgba(59, 59, 59, 0.95) 1px 1px;*/
+}
+
+.btn {
+	border-radius: 0;
+	border-color: #2a2a2a;
 }
