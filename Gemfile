@@ -61,6 +61,8 @@ gem 'pry'
 
 gem 'fog-aws'
 
+gem 'stripe'
+
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
