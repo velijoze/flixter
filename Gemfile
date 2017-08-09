@@ -63,6 +63,8 @@ gem 'fog-aws'
 
 gem 'stripe'
 
+gem 'ranked-model'
+
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
