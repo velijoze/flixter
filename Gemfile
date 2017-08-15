@@ -65,6 +65,8 @@ gem 'stripe'
 
 gem 'ranked-model'
 
+gem 'jquery-ui-rails'
+
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
