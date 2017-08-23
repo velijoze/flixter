@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, .navbar{
   width: 100%;
   min-height: 100px;
   background-color: rgba(36, 32, 33, 0.9);
-  color: white;
+  color: #0275d8;
   font-family: "Helvetica Neue", Helvetica;
   padding: 10px 0px;
   margin-top: 30px;
@@ -76,11 +76,15 @@ h1, h2, h3, h4, h5, h6, .navbar{
 	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;
+	font-family: "Helvetica Neue", Helvetica;
 }
 
 .body {
 	background: image_url('bg.png');
-	font-family: "Helvetica Neue", Helvetica;
+	min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica;
 }
 
 .booyah-box {
@@ -91,6 +95,7 @@ h1, h2, h3, h4, h5, h6, .navbar{
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 10px;
+  font-family: "Helvetica Neue", Helvetica;
 }
 
 .booyah-box h2, .booyah-box h1 {
